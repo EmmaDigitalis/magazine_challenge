@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#loginpopup{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#loginpopup .container{
+    background-color: #ccccff;
+    width: 674px;
+    max-width: 95vw;
+    height: 500px;
+    max-height: 80vh;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginpopup .container fieldset{
+    width: 500px;
+    height: 364px;
+    margin: 16px;
+    border: none;
+    display: inline-block;
+}
+
+form #loginbutton{
+    width: 164px;
+    height: 60px;
+    float: right;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    margin: 24px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+form{
+    position: relative;
+}
+
+form p{
+    margin: 0 0 8px 0;
+    font-weight: 200;
+    font-size: 14pt;
+}
+
+form h2{
+    margin: 0;
+}
+
+form h3{
+    margin: 24px 0 0 0;
+    font-size: 16pt;
+}
+
+form .inputfield{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    border: solid #afafaf 0.5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+form .inputfield:focus-within{
+    box-shadow: 0px 0px 5px #005c5f;
+}
+
+form .inputfield input{
+    margin-left: 16px;
+    height: 36px;
+    width: calc(100% - 32px);
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+form span{
+    width: 312px;
+    max-width: 100%;
+    background-color: #005c5f;
+    color: #ffffff;
+    display: none;
+    padding: 6px;
+    border-radius: 0 0 6px 6px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12pt;
+    right: 0;
+}
+
+form a{
+    margin: 16px 0 0 0;
+    float: left;
+}
+
+form #submitbutton{
+    width: 164px;
+    height: 60px;
+    float: right;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    margin: 24px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+form #submitbutton:hover{
+    background-color: #f2f2ff;
+}
+
+form #submitbutton:active{
+    transform: translateY(2px);
+}
+
+form #submitbutton:focus{
+    outline: none;
+}
+
+form #submitbutton:disabled{
+    background-color: #e2e2e2;
+    cursor: default;
+}
+
+#password:focus-within + span{
+    display: block;
+}
+
+
+#indicator{
+    width: 100%;
+    height: 12px;
+    border-radius: 2px;
+    float: left;
+    margin-top: 8px;
+}
+
+#indicator *{
+    width: calc(100% / 3 - 1px);
+    height: 100%;
+    background-color: #acacac;
+    float: left;
+}
+
+#indicator #red{
+    border-radius: 6px 0 0 6px;
+}
+
+#indicator #orange{
+    margin-left: 1px;
+}
+
+#indicator #green{
+    margin-left: 1px;
+    border-radius: 0 6px 6px 0;
+}

@@ -1,0 +1,138 @@
+<!doctype HTML>
+<html lang="nl">
+
+<head>
+    <title>50's design</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,JavaScript,">
+    <meta name="author" content="Fleur Schmidt">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/50s.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <!--Everything necessary for nav-->
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="js/nav.js"></script>
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <button value="index.php" id="backhome" onclick="changePage(this.value);">Home</button>
+        <button id="openclose" onclick="navToggle();">Close</button>
+        <button value="sos.php" id="previous" onclick="changePage(this.value);">&lt;</button>
+        <select onchange="changePage(this.options[this.selectedIndex].value);">
+            <option disabled selected value=""> -- Select -- </option>
+            <option value="cover.php">Cover</option>
+            <option value="about.php">About</option>
+            <option value="ad-adobe.php">Adobe CC</option>
+            <option value="museum.php">Nazidesign</option>
+            <option value="minimalism.php">Minimalisme</option>
+            <option value="sos.php">Style over Substance</option>
+            <option value="50s.php">Design in de 50s</option>
+            <option value="ad-studeren.php">Studeren?</option>
+            <option value="interview.php">Interview</option>
+            <option value="pepsi.php">Evolutie van Pepsi</option>
+            <option value="flat.php">Skeuomorphism vs Flat</option>
+            <option value="grunge.php">Grunge Design</option>
+            <option value="colofon.php">Colofon</option>
+        </select>
+        <button value="ad-studeren.php" id="next" onclick="changePage(this.value);">&gt;</button>
+    </nav>
+
+    <div id="adaptive">
+        <div id="titel">
+            <h1>Back in the 50's</h1>
+        </div>
+        <div class="vla">
+            <p>Weshal, New Leycarlshe, Saturday, June 20, 2020 ‎‎ ‎ ‎ ‎ ‎ ‎‎
+                The Newspaper of New Leycarlshe
+                ‎‎ ‎ ‎ ‎ ‎ ‎‎
+                5 cents </p>
+            <p></p>
+        </div>
+        <div id="subtitel">
+            <h1>DE GRAFISCHE ONTWERPSTIJL UIT DE JAREN 50</h1>
+        </div>
+
+        <div class="container">
+            <div class="img-col">
+                <img src="img/fleur/50s/camel.jpg" alt="camel">
+            </div>
+            <div class="text-col">
+                <h1>De jaren vijftig stonden bekend als de tijd van de tegenstrijdigheden, roken was niet schadelijk,
+                    Cuba
+                    was een vakantiebestemming en vrouwen waren gelukkig als ze huishoudelijk werk mochten doen
+                </h1>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="text-col2">
+                <p>Seks kwam steeds vaker voor in reclames, vooral met de publicatie van het eerste nummer van Playboy.
+                    Seks werd vaak gebruikt om alles te verkopen, van sigaretten tot sokken.
+                    De reclame van dit decennium, zoals te zien in het populaire tv-drama 'Mad Men', maakte gebruik van
+                    kleuren om de tevredenheid en rijkdom aan te geven. Maar om de oude Camel-sigarettenadvertenties aan
+                    te
+                    halen, “we zijn van ver gekomen, schatje”. Tegenwoordig moeten tabaksproducten wettelijk voorzien
+                    zijn
+                    van waarschuwing labels, moeten Amerikanen hindernissen nemen om naar Cuba te reizen en zijn vrouwen
+                    gelijke arbeidskrachten als mannen.
+                </p>
+            </div>
+            <div class="img-col2">
+                <img src="img/fleur/50s/cuba.jpg" id="cuba" alt="cuba">
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class="img-col3">
+                <img src="img/fleur/50s/happyfam.jpg" alt="happy">
+            </div>
+            <div class="text-col3">
+                <p>Dat betekent echter niet dat de reclame uit de jaren '50 niet serieus moet worden genomen. Het was
+                    tenslotte wel het tijdperk waarin grafische supersterren Paul Rand, Max Bill en Milton Glaser tot
+                    hun
+                    recht kwamen door bureaus te starten en iconische logo's te onthullen. Een van de beste dingen op
+                    het
+                    gebied van grafisch design uit de jaren 50 was de opkomst van grafisch ontwerper Saul Bass. Saul
+                    Bass
+                    staat algemeen bekend om zijn filmtitel reeksen en enkele van de meest iconische logo's uit de
+                    Amerikaanse geschiedenis. Bass stond bekend om het vinden van slimme manieren om het gewone,
+                    ongewoon te
+                    laten zijn en zijn unieke stijl heeft sindsdien ontwerpers beïnvloed.
+                </p>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="text-col4">
+                Ontwerpers kunnen tegenwoordig gebruik maken van de zachte tinten in de gezichten van mensen, het
+                aquarelachtige
+                gevoel van een schilderij weergeven en zelfs gebruik maken van vele lettertypen. In de jaren 50 was er
+                een
+                algemeen thema van 'gelukkige, mooie mensen' in advertenties, dus als er een product was dat met behulp
+                van
+                een
+                sexy vrouw niet kon verkopen, dan werd er gebruik gemaakt van een glimlachende familie rond een eettafel
+                als
+                alternatieve oplossing. Hoe kitscheriger hoe beter! En van dit principe wordt door hedendaagse
+                ontwerpers
+                nog
+                graag gebruik gemaakt.
+            </div>
+            <div id="col"> ‎</div>
+        </div>
+
+        <div class="ad">
+            <img src="img/fleur/50s/advertentiebook.jpg" class="ad" alt="advertentie">
+        </div>
+    </div>
+</body>
+
+</html>

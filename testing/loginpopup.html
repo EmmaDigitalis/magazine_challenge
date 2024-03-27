@@ -1,0 +1,47 @@
+<!doctype HTML>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js"></script>
+    <title>Register Account</title>
+</head>
+
+<body>
+    <div id="loginpopup">
+
+        <!--Registration Field-->
+        <div class="container">
+            <fieldset>
+                <form name="loginform" action="login.php" method="post">
+                    <!--Register Warning-->
+                    <h2>Login</h2>
+
+                    <!--Username-->
+                    <h3>Gebruikersnaam:</h3>
+                    <div class="inputfield">
+                        <input type="text" name="name" placeholder="'gebruikersnaam'" required autofocus
+                            pattern="[^'\x22]+">
+                    </div>
+
+                    <!--Password-->
+                    <h3>Wachtwoord:</h3>
+                    <div id="password" class="inputfield">
+                        <input type="password" name="password" placeholder="********" required pattern="[^'\x22]+">
+                    </div>
+                    
+                    <a>Wachtwoord vergeten?<br>Da's pech want dat<br>kan ik nog niet fixen.</a>
+                    <!--Submit Button-->
+                    <input id="submitbutton" type="submit" value="Login" name="submitted">
+                </form>
+
+            </fieldset>
+        </div>
+    </div>
+
+</body>
+
+</html>

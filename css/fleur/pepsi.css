@@ -1,0 +1,867 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    background-color: #a4152c;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 95px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.textbrad {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 180px;
+    width: 100%;
+    text-align: center;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 130px;
+    width: 100%;
+    text-align: center;
+}
+
+.textfirst {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    width: 1000px;
+    height: 610px;
+    background-color: #1e1e26;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.ken {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    float: left;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+.kennine {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    float: left;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+.seventhtext {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    float: left;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+.kenfour {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    float: left;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+.sixp {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    float: left;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+.eighthp {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    float: left;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+.thirdtext {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    float: left;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+.textfour {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    float: left;
+    margin-top: -270px;
+    text-align: center;
+
+}
+
+.textsec {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.textten {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.texteleven {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.textseven {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.textsix {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 90px;
+    width: 100%;
+    text-align: center;
+}
+
+.texteighth {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 190px;
+    width: 100%;
+    text-align: center;
+}
+
+.kenten {
+    display: none;
+}
+
+.textfudge {
+    color: #f2f2f2;
+    font-size: 13px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 85px;
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin-left: 80px;
+}
+
+.texttaart {
+    color: #f2f2f2;
+    font-size: 13px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 55px;
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin-left: 500px;
+}
+
+.keneleven {
+    display: none;
+}
+
+/*all the pictures*/
+.brads {
+    width: 500px;
+    float: left;
+    margin-left: 240px;
+    margin-top: 100px;
+}
+
+.first {
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.second {
+    width: 370px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.third {
+    width: 310px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.fourth {
+    width: 480px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.fifth {
+    width: 310px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.sixth {
+    width: 310px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.seventh {
+    width: 310px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.eighth {
+    width: 310px;
+    float: left;
+    margin-left: 340px;
+    margin-top: 80px;
+}
+
+.nine {
+    width: 256px;
+    float: left;
+    margin-left: 157px;
+    margin-top: 97px;
+}
+
+.ten {
+    width: 400px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1279px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        position: absolute;
+        left: 50%;
+        top: 43%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text {
+        display: none;
+    }
+
+    .box {
+        width: 500px;
+
+    }
+
+    .prev,
+    .next {
+        margin-top: -102px;
+    }
+
+    .textbrad {
+        bottom: 250px;
+    }
+
+    .textfirst {
+        display: none;
+    }
+
+    .texteleven {
+        display: none;
+    }
+
+    .textsec {
+        display: none;
+    }
+
+    .textten {
+        display: none;
+    }
+
+
+    .textsix {
+        display: none;
+    }
+
+    .textseven {
+        display: none;
+    }
+
+    .texteighth {
+        display: none;
+    }
+
+    .textfudge {
+        display: none;
+    }
+
+    .texttaart {
+        display: none;
+    }
+
+    /*images*/
+    .brads {
+        width: 350px;
+        float: left;
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+
+    .first {
+        width: 300px;
+        margin-left: 110px;
+        margin-top: 70px;
+    }
+
+    .second {
+        margin-left: 110px;
+        margin-top: 30px;
+        width: 300px;
+    }
+
+    .third {
+        width: 250px;
+        margin-left: 120px;
+    }
+
+    .fourth {
+        width: 380px;
+        float: left;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+
+    .fifth {
+        width: 230px;
+        float: left;
+        margin-left: 135px;
+        margin-top: 40px;
+    }
+
+    .sixth {
+        width: 240px;
+        float: left;
+        margin-left: 125px;
+        margin-top: 40px;
+    }
+
+    .seventh {
+        width: 290px;
+        float: left;
+        margin-left: 110px;
+        margin-top: 40px;
+    }
+
+    .eighth {
+        width: 250px;
+        float: left;
+        margin-left: 125px;
+        margin-top: 40px;
+    }
+
+    .nine {
+        width: 256px;
+        float: left;
+        margin-left: 120px;
+        margin-top: 9px;
+    }
+
+    .ten {
+        width: 300px;
+        float: left;
+        margin-left: 105px;
+        margin-top: 10px;
+    }
+
+    /*kenmerken & veranderingen*/
+    .ken {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .textsec {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .thirdtext {
+        font-size: 13pt;
+        float: left;
+        margin-left: 70px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .kenfour {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .kennine {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .seventhtext {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .sixp {
+        font-size: 13pt;
+        float: left;
+        margin-left: 40px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .eighthp {
+        font-size: 13pt;
+        float: left;
+        margin-left: 35px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .kenten {
+        color: white;
+        width: 250px;
+        display: inline-block;
+        margin-left: 126px;
+        margin-top: 26px;
+        text-align: center;
+    }
+
+    .kenten p {
+        font-size: 13pt;
+        text-align: center;
+    }
+
+    .keneleven {
+        color: white;
+        width: 400px;
+        display: inline-block;
+        margin-top: -10px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .keneleven p {
+        font-size: 10pt;
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        position: absolute;
+        left: 50%;
+        top: 43%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text {
+        display: none;
+    }
+
+    .box {
+        width: 320px;
+
+    }
+
+    .prev,
+    .next {
+        margin-top: -102px;
+    }
+
+
+    .textfirst {
+        display: none;
+    }
+
+    .texteleven {
+        display: none;
+    }
+
+    .textsec {
+        display: none;
+    }
+
+    .textten {
+        display: none;
+    }
+
+
+    .textsix {
+        display: none;
+    }
+
+    .textseven {
+        display: none;
+    }
+
+    .texteighth {
+        display: none;
+    }
+
+    .textfudge {
+        display: none;
+    }
+
+    .texttaart {
+        display: none;
+    }
+
+    /*images*/
+    .brads {
+        width: 300px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+
+    .first {
+        width: 300px;
+        display: flex;
+        margin-left: 12px;
+        margin-top: 70px;
+    }
+
+    .second {
+        margin-left: 12px;
+        margin-top: 30px;
+        width: 300px;
+    }
+
+    .third {
+        width: 250px;
+        margin-left: 38px;
+    }
+
+    .fourth {
+        width: 180px;
+        float: left;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+
+    .fifth {
+        width: 210px;
+        float: left;
+        margin-left: 55px;
+        margin-top: 40px;
+    }
+
+    .sixth {
+        width: 180px;
+        float: left;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+
+    .seventh {
+        width: 210px;
+        float: left;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+
+    .eighth {
+        width: 210px;
+        float: left;
+        margin-left: 55px;
+        margin-top: 40px;
+    }
+
+    .nine {
+        width: 156px;
+        float: left;
+        margin-left: 80px;
+        margin-top: 9px;
+    }
+
+    .ten {
+        width: 200px;
+        float: left;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+
+    /*kenmerken & veranderingen*/
+    .ken {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .textsec {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .thirdtext {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .kenfour {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .kennine {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .seventhtext {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .sixp {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .eighthp {
+        font-size: 13pt;
+        float: left;
+        margin-left: 10px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .kenten {
+        color: white;
+        width: 250px;
+        display: inline-block;
+        margin-left: 36px;
+        margin-top: 26px;
+        text-align: center;
+    }
+
+    .kenten p {
+        font-size: 13pt;
+        text-align: center;
+    }
+
+    .keneleven {
+        color: white;
+        width: 250px;
+        display: inline-block;
+        margin-top: -30px;
+        margin-left: 36px;
+        text-align: center;
+    }
+
+    .keneleven p {
+        font-size: 10pt;
+        text-align: center;
+    }
+
+
+}

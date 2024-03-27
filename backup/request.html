@@ -1,0 +1,57 @@
+<!doctype HTML>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script src="js/main.js"></script>-->
+    <title>Request Tricks</title>
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend>Request Field</legend>
+            Gebruik van ' of " is niet toegestaan.<br><br>
+            <form action="verwerk-request.php" method="post">
+                Naam:<br>
+                <input type="text" name="name" placeholder="name" required pattern="[^'\x22]+">
+                <br><br>
+
+                Tricknaam:<br>
+                <input type="text" name="title" placeholder="title" required pattern="[^'\x22]+">
+                <br><br>
+
+                Beschrijving:<br>
+                <textarea style="resize: none;" rows="5" cols="60" name="description" placeholder="blablabla" required
+                    pattern="[^'\x22]+"></textarea>
+                <br><br>
+
+                Categorie:<br>
+                <input type="text" name="category" list="categories" placeholder="literally anything" required
+                    pattern="[^'\x22]+">
+                <datalist id="categories">
+                    <option>Visueel Effect</option>
+                    <option>Functioneel</option>
+                </datalist>
+                <br><br>
+
+                Voorbeeld-URL:<br>
+                <input type="text" name="example" placeholder="link" required pattern="[^'\x22]+">
+                <br><br>
+
+                <!--Input field used to disable freely going to verwerk-request.php-->
+                <input type="text" name="checker" value="yup" style="display: none;">
+
+                <input type="submit" value="Sent" name="submitted">
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>

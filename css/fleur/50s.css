@@ -1,0 +1,316 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../img/fleur/50s/bg50.jpg);
+    height: 310vh;
+}
+
+#titel {
+    font-family: 'chomsky';
+    font-size: 22pt;
+    display: flex;
+    justify-content: center;
+}
+
+#one {
+    display: none;
+}
+
+.vla {
+    border-bottom: solid black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#subtitel {
+    font-family: 'Alte haas grotesk';
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-col {
+    flex-basis: 25%;
+}
+
+.text-col {
+    width: 30%;
+    font-size: 12.5pt;
+    letter-spacing: 4px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.img-col2 {
+    flex-basis: 25%;
+    margin-left: 10em;
+}
+
+.text-col2 {
+    width: 280px;
+    font-weight: normal;
+    font-size: 15pt;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-col3 {
+    flex-basis: 25%;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+.img-col3 img {
+    height: 500px;
+    margin-top: 44px;
+    margin-left: 20px;
+}
+
+.text-col3 {
+    width: 280px;
+    font-size: 15pt;
+    margin-left: 100px;
+}
+
+.text-col3 p {
+    width: 280px;
+    font-size: 15pt;
+    margin-left: -16px;
+}
+
+.text-col4 {
+    width: 480px;
+    font-size: 15pt;
+    margin-left: 352px;
+}
+
+#collage {
+    width: 10px;
+}
+
+.ad {
+    width: 465px;
+    float: left;
+    margin-left: 290px;
+    margin-top:-10px
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    #titel {
+        font-family: 'chomsky';
+        font-size: 22pt;
+    }
+
+    .vla {
+        text-align: center;
+    }
+
+    #subtitel {
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .img-col {
+        display: none;
+    }
+
+    .text-col {
+        width: 90%;
+        text-align: center;
+    }
+
+    .img-col2 {
+        display: none;
+    }
+
+    .text-col2 {
+        width: 280px;
+        text-align: justify;
+        margin-left: 10px;
+    }
+
+    .container3 {
+        text-align: justify;
+    }
+
+    .img-col3 {
+        display: none;
+    }
+
+    .text-col3 {
+        width: 280px;
+        margin-left: 100px;
+    }
+
+    .text-col3 p {
+        width: 280px;
+        margin-left: -53px;
+    }
+
+    .wrap {
+        float: none;
+        width: 280px;
+        text-align: justify;
+    }
+
+    .text-col4 {
+        width: 280px;
+        font-size: 15pt;
+        margin-left: 100px;
+    }
+
+    #col {
+        background-image: url(../img/fleur/50s/collage.png);
+        background-repeat: no-repeat;
+        height: 600px;
+        margin-top: 20px;
+        margin-left: 60px;
+        width: 353px;
+    }
+
+
+
+    .ad {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 1279px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    #titel {
+        font-family: 'chomsky';
+        font-size: 22pt;
+        display: flex;
+        justify-content: center;
+    }
+
+    .vla {
+        border-bottom: solid black;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #subtitel {
+        font-family: 'Alte haas grotesk';
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .ad {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .img-col {
+        display: none;
+    }
+
+    .img-col2 {
+        display: none;
+    }
+
+    .img-col3 {
+        display: none;
+    }
+
+    .text-col {
+        width: 90%;
+        font-size: 12.5pt;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+
+    .text-col2 {
+        width: 280px;
+        font-weight: normal;
+        font-size: 15pt;
+        text-align: justify;
+        margin-left: 10px;
+    }
+
+    .text-col3 {
+        width: 280px;
+        font-weight: normal;
+        font-size: 15pt;
+        text-align: justify;
+        margin-left: 40px;
+    }
+
+    .text-col4 {
+        width: 280px;
+        font-weight: normal;
+        font-size: 15pt;
+        text-align: justify;
+        margin-left: 87px;
+    }
+
+    .wrap {
+        width: 280px;
+        font-size: 15pt;
+        text-align: justify;
+        float: left;
+        margin-left: 255px;
+    }
+
+    #col {
+        background-image: url(../img/fleur/50s/collage.png);
+        background-repeat: no-repeat;
+        height: 600px;
+        margin-top: 20px;
+        margin-left: -130px;
+        width: 600px;
+    }
+
+    
+}

@@ -1,0 +1,342 @@
+body {
+    background-image: url(../img/fleur/grunge/bg2.jpg);
+
+
+}
+
+header {
+    font-family: 'zombilaria';
+    font-size: 50pt;
+    text-align: center;
+}
+
+
+.skewed {
+    transform: rotate(-1deg) skew(-1deg, 0);
+    width: 800px;
+    font-family: 'Copystruct';
+    float: left;
+    margin-left: 400px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.skewed2 {
+    transform: rotate(0.5deg) skew(0.5deg, 0);
+    font-family: 'Copystruct';
+    width: 900px;
+    float: left;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.line {
+    float: left;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.img-col {
+    /* flex-basis: 25%; */
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+.text-col {
+    width: 540px;
+    /* font-size: 12.5pt; */
+    /* letter-spacing: 4px; */
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.skewed3 {
+    transform: rotate(0.5deg) skew(0.5deg, 0);
+    font-size: 13pt;
+    font-family: 'nerwus';
+}
+
+.skewed4 {
+    transform: rotate(-1deg) skew(-1deg, 0);
+    font-size: 13pt;
+    font-family: 'nerwus';
+}
+
+.img-col2 {
+    /* flex-basis: 25%; */
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+}
+
+.text-col2 {
+    width: 540px;
+    /* font-size: 12.5pt; */
+    /* letter-spacing: 4px; */
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.skewed5 {
+    transform: rotate(-1deg) skew(-1deg, 0);
+    font-size: 13pt;
+    font-family: 'Belligerent Madness';
+}
+
+.skewed6 {
+    transform: rotate(0.5deg) skew(0.5deg, 0);
+    font-size: 13pt;
+    font-family: 'Belligerent Madness';
+}
+
+@media screen and (min-width: 501px) and (max-width: 1279px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 400px;
+        /* margin: 0 auto; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #adaptive {
+        margin-top: 2100px;
+        ;
+    }
+
+    header {
+        font-family: 'zombilaria';
+        font-size: 30pt;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+
+    .skewed {
+        transform: rotate(-1deg) skew(-1deg, 0);
+        width: 320px;
+        font-family: 'Copystruct';
+        float: left;
+        margin-left: 30px;
+        text-align: center;
+        margin-top: -50px;
+        font-size: 15pt;
+    }
+
+    .skewed2 {
+        transform: rotate(0.5deg) skew(0.5deg, 0);
+        font-family: 'Copystruct';
+        width: 340px;
+        float: left;
+        margin-left: 50px;
+        text-align: center;
+        font-size: 15pt;
+
+    }
+
+    .line {
+        float: left;
+        margin-left: 100px;
+        width: 0px;
+    }
+
+
+    img {
+        max-width: 100%;
+    }
+
+    .img-col {
+        width: 250px;
+    }
+
+    .text-col {
+        width: 490px;
+        /* font-size: 12.5pt; */
+        /* letter-spacing: 4px; */
+        float: left;
+        margin-left: 20px;
+        margin-top: 80px;
+        text-align: center;
+        font-size: 11pt;
+    }
+
+    .text-col2 {
+        width: 340px;
+        text-align: center;
+        float: left;
+        margin-left: 37px;
+        margin-top: 100px;
+    }
+
+    .skewed3 {
+        transform: rotate(0.5deg) skew(0.5deg, 0);
+        font-size: 11pt;
+        font-family: 'nerwus';
+    }
+
+    .skewed4 {
+        transform: rotate(-1deg) skew(-1deg, 0);
+        font-size: 11pt;
+        font-family: 'nerwus';
+    }
+
+    .img-col2 {
+        /* flex-basis: 25%; */
+        width: 260px;
+        height: 200px;
+        float: left;
+        margin-left: 135px;
+    }
+
+
+    .text-col {
+        width: 400px;
+    }
+
+    .text-col2 img {
+        width: 400px;
+    }
+
+    .skewed5 {
+        transform: rotate(-1deg) skew(-1deg, 0);
+        font-size: 13pt;
+        font-family: 'Belligerent Madness';
+    }
+
+    .skewed6 {
+        transform: rotate(0.5deg) skew(0.5deg, 0);
+        font-size: 13pt;
+        font-family: 'Belligerent Madness';
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+
+    #adaptive {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    header {
+        font-family: 'zombilaria';
+        font-size: 30pt;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+
+    .skewed {
+        transform: rotate(-1deg) skew(-1deg, 0);
+        width: 220px;
+        font-family: 'Copystruct';
+        float: left;
+        margin-left: 10px;
+        text-align: center;
+        margin-top: -50px;
+        font-size: 15pt;
+    }
+
+    .skewed2 {
+        transform: rotate(0.5deg) skew(0.5deg, 0);
+        font-family: 'Copystruct';
+        width: 240px;
+        float: left;
+        margin-left: 2px;
+        text-align: center;
+        font-size: 15pt;
+    }
+
+
+    img {
+        max-width: 100%;
+    }
+
+    .img-col {
+        width: 250px;
+        margin-left: -10px;
+    }
+
+    .text-col {
+        float: left;
+        margin-left: -5px;
+        margin-top: 80px;
+        text-align: center;
+        font-size: 11pt;
+    }
+
+    .text-col img {
+        width: 300px;
+        margin-left: -292px;
+    }
+
+    .text-col2 {
+        width: 270px;
+        text-align: center;
+        float: left;
+        margin-left: -30px;
+        margin-top: 60px;
+    }
+
+    .skewed3 {
+        transform: rotate(0.5deg) skew(0.5deg, 0);
+        font-size: 11pt;
+        font-family: 'nerwus';
+        width: 230px;
+    }
+
+    .skewed4 {
+        transform: rotate(-1deg) skew(-1deg, 0);
+        font-size: 11pt;
+        font-family: 'nerwus';
+        width: 230px;
+    }
+
+    .img-col2 {
+        /* flex-basis: 25%; */
+        width: 260px;
+        height: 200px;
+        float: left;
+        margin-left: 0px;
+    }
+
+
+
+    .text-col2 img {
+        width: 400px;
+    }
+
+    .skewed5 {
+        transform: rotate(-1deg) skew(-1deg, 0);
+        font-size: 13pt;
+        font-family: 'Belligerent Madness';
+    }
+
+    .skewed6 {
+        transform: rotate(0.5deg) skew(0.5deg, 0);
+        font-size: 13pt;
+        font-family: 'Belligerent Madness';
+    }
+}

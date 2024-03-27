@@ -1,0 +1,81 @@
+<!doctype HTML>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js"></script>
+    <title>Register Account</title>
+</head>
+
+<body>
+
+    <header>
+        <ul>
+            <li>
+                <a href="#blank">
+                    Login
+                </a>
+            </li>
+            <li>
+                <a href="register.html">
+                    Register
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main id="main-reg">
+
+        <!--Registration Field-->
+        <fieldset>
+            <legend>Account Registratie</legend>
+            <div id="tester">Gebruik van ' of " is niet toegestaan.</div>
+            <form name="registerform" action="register.php" method="post">
+                <!--Username-->
+                Gebruikersnaam:<br>
+                <input type="text" name="name" placeholder="'Bob'" required autofocus pattern="[^'\x22]+">
+                <!--Needs onblur event-->
+                <br><br>
+
+                <!--Password-->
+                Wachtwoord:<br>
+                <input id="password" type="password" name="password" placeholder="***" required pattern="[^'\x22]+"
+                    oninput="passwordSafety();enableConfirm();">
+                <span class="passwordtip">
+                    Password must contain 1 caps, 1 number, 1 symbol and at be at least 8 symbols.
+                    <br>
+                    <div id="indicator">
+                        <div id="red"></div>
+                        <div id="orange"></div>
+                        <div id="green"></div>
+                    </div>
+                </span>
+                <!--Needs onchange event-->
+
+                <br><br>
+
+                Herhaal wachtwoord:<br>
+                <input id="pwc" type="password" name="passwordcheck" placeholder="***" required pattern="[^'\x22]+"
+                    onblur="confirmPW();">
+                <!--Needs onchange event-->
+                <br><br>
+
+                <!--Email-->
+                Email:<br>
+                <input type="text" name="email" placeholder="a@example.com" required pattern="[^'\x22]+">
+                <!--Needs onblur event-->
+                <br><br>
+
+                <!--Submit Button-->
+                <input id="submitbutton" disabled type="submit" value="Sent" name="submitted">
+            </form>
+        </fieldset>
+
+    </main>
+
+</body>
+
+</html>
